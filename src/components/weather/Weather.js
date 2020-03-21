@@ -7,6 +7,7 @@ import {
   WeatherValue,
   Icon,
 } from './weather-styles';
+
 const Weather = ({
   weatherInfo: {
     temperature,

@@ -13,6 +13,9 @@ export const Input = styled.input`
   margin-right: 20px;
   font-size: 20px;
   outline: none;
+  @media (max-width: 788px) {
+    font-size: 11px;
+  }
 `;
 
 export const Button = styled.button`

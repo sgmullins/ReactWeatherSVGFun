@@ -8,8 +8,10 @@ import {
   TitleContainer,
   FormContainer,
 } from './components/styles/main-styles';
-
+import WeatherDefault from './components/WeatherDefault';
 import { API_KEY } from './apiKeys';
+
+//set background svg by assigning ranges to the data.weather[0].id number range
 
 const App = () => {
   const [weatherInfo, setWeatherInfo] = useState({
@@ -55,7 +57,8 @@ const App = () => {
     <div>
       <Wrapper>
         <Main>
-          <TitleContainer>
+          <TitleContainer style={{ width: 'auto' }}>
+            <WeatherDefault />
             <Titles />
           </TitleContainer>
           <FormContainer>

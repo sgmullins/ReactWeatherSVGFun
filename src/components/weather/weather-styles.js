@@ -5,6 +5,9 @@ export const WeatherInfo = styled.div`
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 2px;
+  @media (max-width: 750px) {
+    font-size: 15px;
+  }
 `;
 
 export const WeatherKey = styled.p`
